@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shadab | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:50px;
+    color:#00ffcc;
+}
+
+header p{
+    font-size:20px;
+    margin-top:10px;
+}
+
+nav{
+    background:#111;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#00ffcc;
+}
+
+section{
+    padding:50px 20px;
+    max-width:1000px;
+    margin:auto;
+}
+
+h2{
+    color:#00ffcc;
+    margin-bottom:20px;
+    border-bottom:2px solid #00ffcc;
+    display:inline-block;
+    padding-bottom:5px;
+}
+
+.card{
+    background:rgba(255,255,255,0.1);
+    padding:20px;
+    border-radius:10px;
+    margin-top:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+}
+
+ul li{
+    margin:10px 0;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111;
+    margin-top:30px;
+}
+
+button{
+    background:#00ffcc;
+    color:black;
+    border:none;
+    padding:12px 20px;
+    border-radius:5px;
+    cursor:pointer;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+button:hover{
+    background:white;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Shadab</h1>
+    <p>B.Tech Biotechnology Student | Bioinformatics Enthusiast</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>Hello! My name is <strong>Shadab</strong>. I am pursuing B.Tech in Biotechnology from Manav Rachna International Institute of Research. I have a strong interest in genomics, molecular biology, and computational biology.</p>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <div class="card">
+        <p><strong>B.Tech Biotechnology</strong></p>
+        <p>Manav Rachna International Institute of Research</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+        <ul>
+            <li>Good understanding of Genomics Structure</li>
+            <li>Bioinformatics</li>
+            <li>Data Analysis</li>
+            <li>Research Skills</li>
+            <li>Problem Solving</li>
+        </ul>
+
+        <button onclick="showMessage()">Click Me</button>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: yourmail@example.com</p>
+        <p>GitHub: github.com/yourusername</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Shadab | Portfolio Website</p>
+</footer>
+
+<script>
+function showMessage(){
+    alert("Thank you for visiting Shadab's Portfolio!");
+}
+</script>
+
+</body>
+  </html>
